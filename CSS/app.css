@@ -1,0 +1,13 @@
+* {
+    color: green;
+}
+
+div.sticky {
+    position: sticky;
+    top: -1;
+    background-color: black;
+    padding: 50px;
+    font-size: 30px;
+    color: yellow;
+
+}

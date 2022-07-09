@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrap nav {
+    padding: 15px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    background-color: white;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+div nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+div nav a :hover {
+    color: red;
+}
+
+.wrap nav div {
+    flex-grow: 1;
+    font-size: medium;
+
+}
+
+.wrap nav div:first-child {
+    flex-grow: 5;
+}
+
+
+.wrap nav div:last-child {
+    text-indent: 10%;
+    flex-grow: 2;
+}
+
+.wrap nav div:last-child {
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.wrap nav div:last-child:hover {
+    color: red;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+.sentence1 {
+    /* font-size: x-large; */
+    padding-top: 20px;
+    padding-left: 30px;
+    background-image: url("bg.jpg");
+    background-size: 100%;
+    height: 50%;
+}
+
+.img {
+    padding-left: 75%;
+    width: 17%;
+    position: absolute;
+}
+
+.one {
+    font-size: medium;
+    color: red;
+}
+
+.designer {
+    font-size: xx-large;
+}
+
+.two {
+    font-size: xx-large;
+}
+
+form {
+    padding-left: 6%;
+}
+
+input[type=submit] {
+    background-color: red;
+    font-size: medium;
+
+}
+
+input[type=submit]:hover {
+    color: gray;
+    align-items: center;
+}
+
+.block {
+    width: 100%;
+    height: 150%;
+    margin-top: 30px;
+}
+
+
+.block div p {
+    text-indent: 90px;
+    color: black;
+
+}
+
+.desgin {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
+.exploring {
+    padding-left: 30px;
+    font-size: xx-large;
+}
+
+.block2 {
+    display: flex;
+}
+
+.desgin_bl p {
+    padding-left: 90px;
+}
+
+.mail {
+    padding-top: 20px;
+    font-size: xx-large;
+    flex-grow: 3;
+}
+
+.block3 {
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: xx-large;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    padding-left: 10%;
+
+}
+
+.container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(400px - 30px);
+    background: red;
+    margin: 13px;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container.box.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.container .box .icon .fa {
+    position: absolute;
+    size: 100%;
+    left: 50%;
+
+}
+
+.container .content {
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 1px red;
+    background-color: red;
+    /* transform: translateZ(); */
+    transform: translateX(-25%);
+
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px blue;
+    background-color: blue;
+    bottom: -20px;
+    left: -10px;
+
+
+
+}
+
+.sticky {
+    margin: 50px auto 0;
+    position: relative;
+    /* right: px; */
+    width: 3px;
+    height: 150px;
+    align-items: center;
+    background-color: black;
+    animation: pendulum 2s infinite alternate-reverse ease-in-out;
+    transform-origin: 50% 10px;
+}
+
+
+@keyframes pendulum {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    50% {
+        transform: rotate(45deg);
+    }
+
+    /* 
+    75% {
+        transform: rotate(0deg);
+    } */
+
+    100% {
+        transform: rotate(-45deg);
+    }
+
+}
